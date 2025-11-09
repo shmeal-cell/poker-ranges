@@ -6,11 +6,10 @@ from tkinter import messagebox as tkMessageBox
 from collections import deque
 import random
 import platform
-import time
-from datetime import time, date, datetime
 
-SIZE_X = 10
-SIZE_Y = 10
+
+SIZE_X = 13
+SIZE_Y = 13
 
 STATE_DEFAULT = 0
 STATE_CLICKED = 1
